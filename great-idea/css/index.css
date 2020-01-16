@@ -64,3 +64,85 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Your code starts here! */
+
+/* Start of the nav styling */
+#top-container{
+	margin: 3%;
+	padding-top:1%;
+}
+nav a{
+
+	margin:5%;
+	color: grey;
+}
+#logo{
+	margin:-20% 3% 0% 80% ;
+}
+
+/*start of the header styling*/
+#title-div {
+	margin:0% 3%;
+	padding:3%;
+}
+#title h1, button{
+	text-align: center;
+	margin-right:50%;
+	font-size: 500%;
+}
+
+#title button{
+	font-size:100%;
+	margin-left:22%;
+	padding: 1%;
+	border: black 2px;
+}
+
+
+#circle_img{
+	margin:-17% 0% 0% 70% ;
+}
+
+
+/* Start of the middle area under header*/
+
+#container1{
+	margin:3% 4%;
+	border-top: black solid 1px;
+	column-count:2 ;
+}
+
+/* styling for middle image*/
+#img_div{
+	margin:0% 3%;
+	padding: 0% 1%;
+}
+
+.middle-img{
+	width:100%;
+}
+/* styling for bottom sections*/
+#container2{
+	margin:3% 4%;
+	column-count:3 ;
+	padding-bottom: 3%;
+	border-bottom: black solid 1px;
+}
+
+
+/* Styling for contact*/
+
+#contact{
+	margin-left: 4%;
+}
+
+#copyright{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.bottom_ps{
+	margin-top:1%;
+	margin-bottom: 1%;
+}
