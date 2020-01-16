@@ -63,4 +63,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+/* Services styling */
 
+#services{
+    display: flex;
+    border: black solid;
+    margin: 3%;
+}

@@ -81,22 +81,27 @@ nav a{
 /*start of the header styling*/
 #title-div{
 	display: flex;
-	border: black solid;
 	margin: 0% 3%;
 	justify-content:space-evenly;
+	align-items: center;
 }
 header{
-	display: flex;
-	
+	padding: 3%;
+	display: flex;	
 }
 
 #web-words{
-	border: solid;
+	padding-left: 30%;
+	width: 50%;
+}
+
+#web-words h1{
+	font-size:500% ;
 }
 
 #circle_div{
-	display: flex;
-	border: solid;
+	padding-left: 15%;
+	width: 50%;
 }
 
 
