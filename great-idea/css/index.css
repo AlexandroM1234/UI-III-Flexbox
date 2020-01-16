@@ -69,59 +69,44 @@ h1, h2, h3, h4, h5 {
 
 /* Start of the nav styling */
 #top-container{
+	border:black solid 1px;
 	margin: 3%;
 	padding-top:1%;
 }
 nav a{
-
 	margin:5%;
 	color: grey;
 }
-#logo{
-	margin:-20% 3% 0% 80% ;
-}
-
 /*start of the header styling*/
-#title-div {
-	margin:0% 3%;
+ #title{
+	border: red 1px;
 	padding:3%;
 }
-#title h1, button{
-	text-align: center;
-	margin-right:50%;
-	font-size: 500%;
-}
-
-#title button{
-	font-size:100%;
-	margin-left:22%;
-	padding: 1%;
-	border: black 2px;
-}
-
-
-#circle_img{
-	margin:-17% 0% 0% 70% ;
+#web-words{
+	border:green;
 }
 
 
 /* Start of the middle area under header*/
 
 #container1{
+	display: flex;
 	margin:3% 4%;
 	border-top: black solid 1px;
-	column-count:2 ;
 }
 
 /* styling for middle image*/
 #img_div{
+	display: flex;
 	margin:0% 3%;
-	padding: 0% 1%;
+	padding:1% ;
+	height: 30vh;
 }
 
-.middle-img{
-	width:100%;
+#img_div .middle-img{
+	flex-grow:1;
 }
+
 /* styling for bottom sections*/
 #container2{
 	margin:3% 4%;
