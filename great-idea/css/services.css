@@ -90,7 +90,7 @@ header{
 #services{
 	display: flex;
 	flex-wrap: wrap;
-    margin: 3%;
+	margin: 3%;
 }
 
 
@@ -98,6 +98,9 @@ header{
 
 /* Giant Container */
 #middle-section{
+	border-top: solid black;
+	border-bottom: solid black;
+	margin:2% 3%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -107,7 +110,7 @@ header{
 .box-style{
 	padding: 1%;
 	width: 45%;
-	margin: 1% 0%;
+	margin: 1%;
 	border: black solid 2px;
 }
 
@@ -119,14 +122,28 @@ header{
 	margin: 2% 0%;
 }
 
+/* Bottom portion of the website */
+
 #bottom{
 	display: flex;
-	margin: 0% 3%;
 	justify-content: space-around;
-	border: black solid;
+}
+.bottom-box ul{
+	list-style-type:disc;
+	margin:3% ; 
+}
+.bottom-box{
+	padding:1%;
+	width: 100%;
+	margin: 0% 2%;
 }
 
-.bottom-box{
-	border: black solid;
-	width: 40%;
+.bottom-box #lady{
+	display: flex;
+	justify-content: center;
+}
+
+#copyright{
+	padding: 2%;
+	text-align: center;
 }
