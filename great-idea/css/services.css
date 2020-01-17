@@ -86,14 +86,37 @@ header{
 
 /* Middle of the website  */
 
+/* Giant Container */
 #middle-section{
 	display: flex;
+	margin: 0% 3%;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	margin:0% 3% ;
 }
 
+/* Container class for each box */
 .box-style{
+	padding: 1%;
 	width: 40%;
-	margin: 1% 2%;
+	margin: 1% 1%;
 	border: black solid 2px;
+}
+
+/* Styling for each botton */
+
+.box-style button{
+	padding: 1%;
+	margin: 2% 0%;
+}
+
+#bottom{
+	display: flex;
+	margin: 0% 3%;
+	justify-content: space-around;
+	border: black solid;
+}
+
+.bottom-box{
+	border: black solid;
+	width: 40%;
 }
