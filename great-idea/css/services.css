@@ -63,48 +63,58 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+/* Nav styling */
+nav{
+	margin-top:3% ;
+	border: black;
+	display: flex;
+	justify-content: space-around;
+}
+nav a{
+	color: grey;
+}
+
+
 /* Top image styling */
 header{
 	display: flex;
-
-	border: black solid;
+	margin: 3%;
 }
 
 .services-header-img{
 	width: 100%;
 }
 
-
-
 /* Services styling */
 
 #services{
-    display: flex;
-    border: black solid;
+	display: flex;
+	flex-wrap: wrap;
     margin: 3%;
 }
+
 
 /* Middle of the website  */
 
 /* Giant Container */
 #middle-section{
 	display: flex;
-	margin: 0% 3%;
-	justify-content: space-around;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 /* Container class for each box */
 .box-style{
 	padding: 1%;
-	width: 40%;
-	margin: 1% 1%;
+	width: 45%;
+	margin: 1% 0%;
 	border: black solid 2px;
 }
 
 /* Styling for each botton */
 
 .box-style button{
+	border-radius: 6px;
 	padding: 1%;
 	margin: 2% 0%;
 }
